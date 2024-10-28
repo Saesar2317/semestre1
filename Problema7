@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner;
+		String membresia;
+		int compra;
+		double monedero, rembolso, total;
+		System.out.println("ingrese la cantidad de compra");
+		compra = sc.nextInt();
+		System.out.println("ingrese su membresia");
+		membresia = sc.next();
+		if (membresia.equalsIgnoreCase("Clasica")){
+		    System.ou.println("usted no tiene ningun beneficio");
+		}
+		else if (memebresia.equalsIgnoreCase("negocio")){
+		    monedero = ;
+		    
+		}
+	}
+}
