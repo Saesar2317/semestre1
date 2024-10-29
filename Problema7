@@ -7,7 +7,7 @@ public class Main
 		double compra, beneficio;
 		System.out.println("ingrese la cantidad de compra");
 		compra = sc.nextDouble();
-		System.out.println("ingrese su membresia");
+		System.out.println("ingrese su membresia: clasica, negocio, premium o benefits");
 		membresia = sc.next();
 		beneficio = 0;
 		switch (membresia) {
