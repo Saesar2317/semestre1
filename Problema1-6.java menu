@@ -1,0 +1,32 @@
+package parte1;
+import java.util.Scanner;
+public class portafolio1 {
+	static Scanner sc;
+	public static void main (String[] args) {
+	sc = new Scanner(System.in);
+	int opc = 0;
+	do {
+		opc = menu();
+		switch(opc) {
+		case 1:
+			break;
+		case 6:
+			break;
+		}
+	  }
+	while (opc >= 1 && opc <=6);
+	}
+	
+	public static int menu() {
+		System.out.println();
+		System.out.println("Menu de opciones");
+		System.out.println("1. triple de suma en un arreglo");
+		System.out.println("2. elementos de posicion par en un arreglo");
+		System.out.println("3. generar array String a partrir de una cadena");
+		System.out.println("4. promedio de alumnos aprobados");
+		System.out.println("5. arreglo de vocales a partir de una cadena");
+		System.out.println("6. encontrar posicion de un numeroen un arreglo");
+		System.out.println("ingresa una opcion valida");
+		return sc.nextInt();
+	}
+}
