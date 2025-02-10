@@ -1,0 +1,28 @@
+package Agenda;
+
+public class Menu {
+	public static void main (String [] args) {
+		Agenda[] A = new Agenda(10);
+		for (int c = 0; c < A.length; c++) {
+		}
+		A[c] = new Agenda("*","0");
+	}
+	do {
+		int opcion=0;
+		String Nombre;
+		do {
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			System.out.println("");
+			Opcion=Leer.datoInt();
+		
+		}
+	}
+}
