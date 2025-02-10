@@ -1,0 +1,21 @@
+package Agenda;
+
+public class Contacto {
+	private String Nombre;
+	private String Telefono;
+	
+	public Contacto(String Nombre, String Telefono) {
+		super();
+		Nombre = nombre;
+		Telefono = telefono;
+		
+	}
+	public String getNombre(){
+		return Nombre;
+	}
+	public String getTelefono() {
+		return Telefono;
+	}
+	
+
+}
