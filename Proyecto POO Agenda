@@ -1,0 +1,21 @@
+
+public class Agenda {
+	private Contacto[] contactos;
+	private int Capacidad;
+	private int Contador;
+	
+	public Agenda() {
+		Capacidad = 10;
+		Contador = 0;
+		contactos = new Contacto[Capacidad];
+		
+	}
+	public void añadirContacto(Contacto nuevo) {
+		if(agendaLlena()) {
+			System.out.println("La agenda esta llena, no puede añadir mas contactos. ");
+			return;
+		}
+		
+	}
+
+}
