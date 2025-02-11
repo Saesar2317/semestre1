@@ -6,9 +6,8 @@ public class Contacto {
 	
 	public Contacto(String Nombre, String Telefono) {
 		super();
-		Nombre = nombre;
-		Telefono = telefono;
-		
+		Nombre = nombre();
+		Telefono = telefono();
 	}
 	public String getNombre(){
 		return Nombre;
@@ -16,6 +15,13 @@ public class Contacto {
 	public String getTelefono() {
 		return Telefono;
 	}
-	
+	public boolean equals (Contacto otro) {
+		return nombre.equalsIgnoreCase(otro.getNombre());
+		
+	}
+	public String toString() {
+		return "Nombre: " + Nombre + "Telfeono: " + Telefono;
+	}
 
 }
+
